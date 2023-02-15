@@ -5,5 +5,5 @@
 
 - name: i want to install java default jdk
   yum:
-     name: default-jdk
+     name: java-openjdk11
      state: present 
