@@ -1,9 +1,10 @@
 ---
 - name: i want to update
   yum : 
-    update_cache: yes
+    name : yum -y update
+    state : present
 
 - name: i want to install java default jdk
   yum :
-     name: sudo amazon-linux-extras install java-openjdk11
+     name: amazon-linux-extras install java-openjdk11
      state: present 
