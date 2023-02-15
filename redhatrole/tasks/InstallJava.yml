@@ -4,6 +4,6 @@
     update_cache: yes
 
 - name: i want to install java default jdk
-  apt:
+  yum :
      name: sudo amazon-linux-extras install java-openjdk11
      state: present 
