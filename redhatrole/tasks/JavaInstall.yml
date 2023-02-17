@@ -1,4 +1,5 @@
 ---
-- name: i want to update
-  yum: 
-    update_cache: yes
+- name: Install Java
+  yum:
+        name: java-{{ java_version }}-openjdk-devel
+        state: present
