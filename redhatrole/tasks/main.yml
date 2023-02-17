@@ -1,4 +1,4 @@
 ---
 # tasks file for redhatrole
 
-    - include_tasks : JavaInstall.yml
+    - include_tasks : Install1.yml
