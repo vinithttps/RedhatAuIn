@@ -1,4 +1,4 @@
 ---
 - name: i want to update
-  apt: 
+  yum: 
     update_cache: yes
