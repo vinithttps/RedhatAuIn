@@ -1,4 +1,5 @@
 ---
 # tasks file for redhatrole
 
-    - include_tasks : Install1.yml
+    - include_tasks : InstallJava.yml
+    - include_tasks : CreateTomcatUser.yml
