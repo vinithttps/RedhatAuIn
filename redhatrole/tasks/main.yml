@@ -8,3 +8,5 @@
     - include_tasks : TomcatServiceFile.yml
     - include_tasks : TomcatServicStart.yml
     - include_tasks : TomcatServiceManagment.yml
+    - include_tasks : DeployApp.yml
+    - include_tasks : RestartTomcat.yml

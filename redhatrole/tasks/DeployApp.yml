@@ -1,0 +1,6 @@
+--- 
+- name: i want to deply java application
+  get_url: 
+      url: https://autoredhattomcatserver.s3.us-east-2.amazonaws.com/SampleWebApp.war
+      dest: /opt/tomcat/webapps/SampleWebApp.war
+      force_basic_auth: yes
