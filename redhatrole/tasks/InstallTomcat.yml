@@ -1,4 +1,9 @@
 --- 
+- name: Create redhat directory in /home
+  file:
+      path: /home/redhat
+      state: directory
+
 - name : i want to download tomcat 10
   get_url:
     url: https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.5/bin/apache-tomcat-10.1.5.tar.gz
